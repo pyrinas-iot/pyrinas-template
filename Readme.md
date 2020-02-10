@@ -5,8 +5,6 @@
 First you will have to download and bootstrap the OS directory.
 It's best to clone it in to the same parent directory as this project.
 
-[ ] TODO: show example of `ls` output
-
 ```
 git clone https://github.com/jaredwolff/nucelus-os.git
 ```
@@ -24,7 +22,7 @@ Using the provided `Makefile`, you can now flash, debug and more.
 If you're starting fresh with a new piece of hardware, here's what you need to do:
 
 1. `make erase` your device.
-1. `make flash_softdevic`
+1. `make flash_softdevice`
 1. `make flash`
 
 As long as things are plugged in, you should get some successful prompts.
