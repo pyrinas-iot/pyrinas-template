@@ -95,3 +95,12 @@ jlinkrttclient -RTTTelnetPort 19021
 `make flash_softdevice` - flashes the soft_device
 
 `make rtt` - opens up the debug console.
+
+## License
+
+**Make it yours!**
+
+This repository is a **template**. Meaning it provides the scaffolding for you
+to create awesome things. Set your license here.
+
+**nucleus-os** is under the BSD 3 license.
