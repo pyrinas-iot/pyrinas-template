@@ -13,7 +13,6 @@ void setup()
   //     .addr_type = BLE_GAP_ADDR_TYPE_RANDOM_STATIC,
   //     .addr = {0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc}};
 
-  // // 7c:84:9d:32:8d:e4
   // init.config.devices[1] = {
   //     .addr_type = BLE_GAP_ADDR_TYPE_RANDOM_STATIC,
   //     .addr = {0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc}};
