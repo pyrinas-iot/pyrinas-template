@@ -8,14 +8,16 @@ void setup()
   // // Default config for central mode
   // BLE_STACK_CENTRAL_DEF(init);
 
-  // // Add an address to scan for
-  // init.config.devices[0] = {
+  // // Add an addresses to scan for
+  // ble_gap_addr_t first = {
   //     .addr_type = BLE_GAP_ADDR_TYPE_RANDOM_STATIC,
-  //     .addr = {0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc}};
+  //     .addr = {0x81, 0x64, 0x4C, 0xAD, 0x7D, 0xC0}};
+  // init.config.devices[0] = first;
 
-  // init.config.devices[1] = {
+  // ble_gap_addr_t second = {
   //     .addr_type = BLE_GAP_ADDR_TYPE_RANDOM_STATIC,
-  //     .addr = {0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc}};
+  //     .addr = {0x7c, 0x84, 0x9d, 0x32, 0x8d, 0xe4}};
+  // init.config.devices[1] = second;
 
   // // Increment the device_count
   // init.config.device_count = 2;

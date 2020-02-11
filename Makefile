@@ -18,15 +18,20 @@ PROG_PORT=19021
 # xenon - Particle Xenon
 BOARD=xenon
 
+
+# This is where you can name your app something. Make it specific
+APP_FILENAME=nucelus-template
+
 # End: Your Configuration
 
 EXPORT_ARGS += \
 	APP_DIR=$(PWD) \
 	PROG_SERIAL=$(PROG_SERIAL) \
 	PROG_PORT=$(PROG_PORT) \
-	BOARD=$(BOARD)
+	BOARD=$(BOARD) \
+	APP_FILENAME=$(APP_FILENAME)
 
-.PHONY: build clean debug erase flash flash_softdevice  rtt
+.PHONY: build clean debug erase flash flash_softdevice rtt
 
 default: build
 
