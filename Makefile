@@ -3,7 +3,7 @@
 # Set this to the directory of nucleus-os
 # If you used a symbolic link this points to
 # the `nucleus-os` folder in this repository
-OS_DIR := nucelus-os
+OS_DIR := pyrinas-os
 
 # This should be the serial number of your Jlink programmer.
 # To find simply run `jlinkexe`
@@ -20,7 +20,7 @@ BOARD=xenon
 
 
 # This is where you can name your app something. Make it specific
-APP_FILENAME=nucelus-template
+APP_FILENAME=pyrinas-template
 
 # End: Your Configuration
 

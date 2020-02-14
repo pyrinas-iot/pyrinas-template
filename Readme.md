@@ -1,4 +1,4 @@
-# Nucleus OS App
+# Pyrinas OS App
 
 ## Getting Started
 
@@ -6,13 +6,13 @@ First you will have to download and bootstrap the OS directory.
 It's best to clone it in to the same parent directory as this project.
 
 ```
-git clone https://github.com/jaredwolff/nucelus-os.git
+git clone https://github.com/pyrinas-iot/pyrinas-os.git
 ```
 
 Then you can set up a symbolic link to the OS
 
 ```
-ln -s ../nucelus-os/ .
+ln -s ../pyrinas-os/ .
 ```
 
 Using the provided `Makefile`, you can now flash, debug and more.
@@ -101,4 +101,4 @@ jlinkrttclient -RTTTelnetPort 19021
 This repository is a **template**. Meaning it provides the scaffolding for you
 to create awesome things. Set your license here.
 
-**nucleus-os** is under the BSD 3 license.
+**pyrinas-os** is under the BSD 3 license.
