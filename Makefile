@@ -1,8 +1,8 @@
 # Start: Your configuration!
 
-# Set this to the directory of nucleus-os
+# Set this to the directory of pyrinas-os
 # If you used a symbolic link this points to
-# the `nucleus-os` folder in this repository
+# the `pyrinas-os` folder in this repository
 OS_DIR := pyrinas-os
 
 # This should be the serial number of your Jlink programmer.
