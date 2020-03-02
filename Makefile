@@ -18,9 +18,12 @@ PROG_PORT=19021
 # xenon - Particle Xenon
 BOARD=xenon
 
-
 # This is where you can name your app something. Make it specific
 APP_FILENAME=pyrinas-template
+
+# This determines whether or not you're using debug mode
+# Comment this out or change to false
+DEBUG=true
 
 # End: Your Configuration
 
@@ -29,7 +32,8 @@ EXPORT_ARGS += \
 	PROG_SERIAL=$(PROG_SERIAL) \
 	PROG_PORT=$(PROG_PORT) \
 	BOARD=$(BOARD) \
-	APP_FILENAME=$(APP_FILENAME)
+	APP_FILENAME=$(APP_FILENAME) \
+	DEBUG=$(DEBUG)
 
 .PHONY: build clean debug erase flash flash_softdevice rtt
 
