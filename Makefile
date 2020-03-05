@@ -35,7 +35,7 @@ EXPORT_ARGS += \
 	APP_FILENAME=$(APP_FILENAME) \
 	DEBUG=$(DEBUG)
 
-.PHONY: build clean debug erase flash flash_softdevice rtt
+.PHONY: build clean debug erase flash flash_softdevice ota rtt
 
 default: build
 
@@ -56,6 +56,11 @@ flash:
 
 flash_softdevice:
 	@export $(EXPORT_ARGS) && make -C $(OS_DIR) flash_softdevice
+
+ota:
+	@export $(EXPORT_ARGS) && make -C $(OS_DIR) ota
+	@mkdir -p _ota
+	@cp $(OS_DIR)/_ota/$(APP_FILENAME)* _ota/
 
 rtt:
 	@export $(EXPORT_ARGS) && make -C $(OS_DIR) rtt
